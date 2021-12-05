@@ -13,7 +13,7 @@
 		<h1>matrix-display</h1>
 		<h2><a href="https://501a.netlify.app">made with svelte by 501A</a></h2>
 		<p>
-			currently only supports ascii characters. If you open the console you can
+			currently only supports upper case ascii characters. If you open the console you can
 			see the full binary array for each number.
 		</p>
 		<input type="text" bind:value={ascii} on:input={asciiArrayFunction} />
